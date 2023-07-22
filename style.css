@@ -8,11 +8,42 @@ input {
     padding: 8px 14px;
     border-radius: 4px;
     outline: none;
-    border: 2px solid #E8CCFF;
+    border: 2px solid #2E2E2E;
     display: block;
     margin: 0 auto;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
     transition: all 0.3s ease;
     margin: 5px;
+}
+
+.container {
+    text-align: center;
+}
+
+.img {
+    margin: 10px;
+    height: 150px;
+}
+
+button {
+    padding: 8px 14px;
+    border-radius: 4px;
+    outline: none;
+    border: 2px solid #2E2E2E;
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.3s ease;
+    margin: 15px auto;
+    background-color: #2E2E2E;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fff;
+    color: #2E2E2E;
+    opacity: 0.8;
 }
